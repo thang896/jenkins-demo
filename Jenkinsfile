@@ -6,4 +6,5 @@ pipeline {
                 git 'https://github.com/thang896/jenkins-demo.git'
             }
         }
+    }
 }
