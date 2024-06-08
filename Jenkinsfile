@@ -7,4 +7,12 @@ pipeline {
             }
         }
     }
+    post {
+        success {
+            echo 'The Docker image has been built and the container is running!'
+        }
+        failure {
+            echo 'The build failed.'
+        }
+    }
 }
